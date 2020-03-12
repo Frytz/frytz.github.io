@@ -2662,16 +2662,19 @@ ul.icons a:active {
 }
 
 ul.icons {
+    display:flex;
+    flex-direction: row;
     cursor: pointer;
     list-style: none;
     padding-left: 0;
+    justify-content: center;
 }
 
 ul.icons li {
-    display: flex;
+    display: flex;   
     flex-wrap: nowrap;
     justify-content: center;
-    padding: 0 0.75rem 0 0;
+    padding: 0.75rem 0.75rem 0 0;
 }
 
 ul.icons li:last-child {
